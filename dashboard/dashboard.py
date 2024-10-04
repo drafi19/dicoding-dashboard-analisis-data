@@ -37,7 +37,7 @@ def create_bycategory_df(df):
 
 
 # Load data
-all_df = pd.read_csv('all_df.csv')
+all_df = pd.read_csv('.\dashboard\all_df.csv')
 
 # Order by date
 datetime_columns = ["order_purchase_timestamp"]
